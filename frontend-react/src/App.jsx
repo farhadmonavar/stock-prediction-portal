@@ -1,12 +1,15 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
+import './assets/css/style.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Main from "./components/Main.jsx";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-
+      <Header />
+      <Main/>
     </>
   )
 }
